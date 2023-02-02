@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(240, 241, 184);
+}
+img{
+    background-position-x: center;
+    
+}
+p{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.collapsible {
+    background-color: rgb(31, 135, 196);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(13, 41, 134);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
