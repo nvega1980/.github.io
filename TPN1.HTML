@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f60ace8023.css" crossorigin="anonymous">
+</head>
+<body>
+<h1>
+    <img src=https://i.pinimg.com/originals/18/71/8f/18718f5fa70af55d0ee1a9aa14f1fcd4.jpg alt="foto de nestor vega" style="float:left;width:300px;height:400px;"> Curriculum Vitae
+</h1>
+    
+</div>
+    <button type="button" class="collapsible">Informacion Personal</button>
+    <div class="content">
+        <p><i class="fa-solid fa-user"></i><b>  Apellido y Nombre:</b> Vega Nestor Ismael</p>
+        <p><i class="fas fa-location-arrow" style="font-size:24px"></i><b>  Direccion:</b> Solis 637 PB "A"   -   C.P:: 1078</p>
+        <p><i class="fa-solid fa-hourglass-start"></i><b>  Edad:</b> 42 Años</p>
+        <p><i class="fa-sharp fa-solid fa-person" style="font-style: 50px"></i><b>  Estado Civil:</b> Soltero</p>
+        <p><i class="	fas fa-mobile-alt" style="font-size: 36px"></i><b>  Numero de Contacto:</b> 123456789</p>
+        <p><i class="fa-sharp fa-solid fa-envelope"></i><b>  E-Mail:</b> nestor,niv43@xxx.com</p>
+
+    </div>
+    <button type="button" class="collapsible">Experiencia Personal</button>
+    <div class="content">
+      <p><i class="fa-solid fa-wrench"></i><b>  RESTAURANTE MORIZONO (1999-2001)</b></p>
+      <P><B>EXPERIENCIA LABORAL:</B>Tareas de Lavacopa, Limpieza y Servicio de Delivery</P>
+      <p><i class="fa-solid fa-wrench"></i><b>  CONCECIONARIO FORD - OESTE AUTOS (2002-2004)</b></p>
+      <P><B>EXPERIENCIA LABORAL:</B>Venta al Publico Minorista y Mayorista, manejo de Sistema de inventario y Control de Stock</P>
+      <p><i class="fa-solid fa-wrench"></i><b>  CONCECIONARIO FORD - AUTOMOTORES MATADEROS (2004-A LA ACTUALIDAD)</b></p>
+      <P><B>EXPERIENCIA LABORAL:</B>Jefe de repuestos, manejo de Personal, Sistema de inventario, Control de Stock</p>
+    </div>
+    
+</div>
+<button type="button" class="collapsible">Habilidades</button>
+<div class="content">
+  <p><i class="fa-solid fa-check"></i><b>  Adaptabilidad:</b> Facilidad para Adaptarme a situaciones variadas y cambiantes</p>
+  <p><i class="fa-solid fa-check"></i><b>  Multitarea:</b> Muy capacitado para desempeñar diversas tareas de sectores varios </p>
+  <p><i class="fa-solid fa-check"></i><b>  Empatía:</b> comprender las emociones y el punto de vista de otros</p>
+  <p><i class="fa-solid fa-check"></i><b>  Autocontrol:</b> mantener la calma y la sensatez ante el cambio y el desafío</p>
+  <p><i class="fa-solid fa-check"></i><b>  Paciencia:</b> saber cuándo esperar, cuándo responder y cuándo actuar</p>
+  <p><i class="fa-solid fa-check"></i><b>  Escuchar eficazmente:</b> escuchar para comprender y hacerle saber a mis compañeros que están siendo escuchado</p>
+  <p><i class="fa-solid fa-check"></i><b>  Venta suave:</b> promoción de productos para aumentar las ventas sin ser intrusivo</p>
+  <p><i class="fa-solid fa-check"></i><b>  Atención al detalle:</b> tomar pedidos con precisión y verificar las facturas antes de que lleguen al cliente</p>
+  <p><i class="fa-solid fa-check"></i><b>  Lenguaje positivo:</b> usar conversaciones optimistas y tranquilizadoras para calmar la negatividad y ganar la confianza del cliente</p>
+  <p><i class="fa-solid fa-check"></i><b>  Comunicación clara:</b> transmitir información de una manera sencilla y fácil de entender</p>
+</div>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+    <script src="https://kit.fontawesome.com/f60ace8023.js" crossorigin="anonymous"></script>
+</body>
+</html>
